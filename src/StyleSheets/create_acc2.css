@@ -1,0 +1,147 @@
+.back {
+    margin-left: 260px;
+    margin-top: 420px;
+}
+
+.line_back {
+    margin-left: 130px;
+    margin-top: 440px;
+}
+
+.arrow_back {
+    transform: rotate(-225deg);
+    -webkit-transform: rotate(-225deg);
+    margin-left: 130px;
+    margin-top: 430px;
+}
+
+.about_me {
+    margin-left: 370px;
+}
+
+.headers {
+    position: relative;
+}
+
+.portfolio {
+    margin-left: 1080px;
+}
+
+.text{
+    font-family: 'Poppins', system-ui;
+    font-style: normal;
+    color: #000000;
+    line-height: 33px;
+}
+
+.text_style2 {
+    position: fixed;
+    font-weight: 500;
+    font-size: 43px;
+}
+
+.about_me_rectangle
+{
+    position: fixed;
+    width: 580px;
+    height: 300px;
+    background-color: white;
+    border-radius: 13px;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.new_rectangles {
+    position: relative;
+}
+
+.dotes {
+    position: fixed;
+    font-size: 52px;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 660px;
+}
+
+.access {
+    position: fixed;
+    font-size: 30px;
+    margin-left: 425px;
+    margin-top: 95px;
+}
+
+.access_people {
+    position: fixed;
+    font-size: 26px;
+    align-items: center;
+    color: #5F5A5A;
+}
+
+.access_people_first {
+    margin-top: 130px;
+    margin-left: 450px;
+}
+
+.access_people_second {
+    margin-top: 170px;
+    margin-left: 450px;
+}
+
+.access_people_third {
+    margin-top: 210px;
+    margin-left: 450px;
+}
+.access_rectangle {
+    position: fixed;
+    width: 270px;
+    height: 120px;
+    background: #D3EDFE;
+    border: 1px solid #000000;
+    margin-top: 130px;
+    margin-left: 425px;
+}
+
+.first_line {
+    margin-left: 424px;
+    margin-top: 170px;
+}
+.second_line {
+    margin-left: 424px;
+    margin-top: 210px;
+}
+
+.access_line {
+    position: fixed;
+    width: 269px;
+    border: 1px solid #000000;
+}
+
+.portfolio_rectangle {
+    position: fixed;
+    width: 580px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    margin-top: 80px;
+    margin-left: 900px;
+}
+
+.rectangles {
+    border: 1px solid #000000;
+    border-radius: 48px;
+    position: fixed;
+}
+
+.big_rectangle {
+    width: 20px;
+    height: 66px;
+    margin-left: 915px;
+    margin-top: 87px;
+}
+
+.small_rectangle {
+    width: 20px;
+    height: 40px;
+    margin-left: 915px;
+    margin-top: 113px;
+}

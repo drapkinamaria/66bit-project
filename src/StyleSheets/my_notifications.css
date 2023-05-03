@@ -1,0 +1,64 @@
+.new_pic1 {
+    position: fixed;
+    width: 2.5%;
+    height: 5%;
+    margin-left: 2%;
+    margin-top: 0.7%;
+}
+
+.new_pic2 {
+    position: fixed;
+    width: 2.5%;
+    height: 5%;
+    margin-left: 10%;
+    margin-top: 0.7%;
+}
+
+.blue_button {
+    position: fixed;
+    width: 13%;
+    height:9%;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: #C2E1F6;
+    border-radius: 20px;
+}
+
+.inside_white_button {
+    position: fixed;
+    width: 12.5%;
+    height:7.75%;
+    margin-top: 0.3%;
+    margin-left: 0.2%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.new_text_button {
+    margin-top: 0%;
+    margin-left: 0.5%;
+}
+
+.sec_line_button {
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+}
+
+.write_announ_button {
+    position: fixed;
+    width: 10%;
+    height:7.75%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+.write_loc {
+    margin-left: 16%;
+    margin-top: 1.2%;
+}
+
+.announce_loc {
+    margin-left: 28%;
+    margin-top: 1.2%;
+}

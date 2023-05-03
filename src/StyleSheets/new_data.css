@@ -1,0 +1,82 @@
+.main-content-container.user-data {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-content-container.user-data > .profile-photo-wrapper,
+.main-content-container.user-data > .user-text-data-wrappers {
+    margin-top: 2%;
+}
+
+.main-content-container.user-data > .profile-photo-wrapper {
+    margin-left: 3%;
+}
+
+.profile-photo-wrapper {
+    width: 15%;
+    height: 30%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.user-text-data-wrappers {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    row-gap: 5%;
+    column-gap: 5%;
+    overflow: auto;
+    padding-left: 4%;
+}
+
+.user-text-data-wrapper {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-text-data-wrapper .data-title {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.user-text-data-wrapper h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.user-text-data-wrapper .data-rec {
+    width: 70%;
+    height:50%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_me_data {
+    width: 40%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 17%;
+    background-color: #FFFFFF
+}
+
+.about_me_text {
+    margin-top: 17%;
+    margin-left: 1.5%;
+}
+
+.change {
+    margin-top: 29.5%;
+    margin-left: 55%;
+}

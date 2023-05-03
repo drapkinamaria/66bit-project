@@ -1,0 +1,100 @@
+.profile-background {
+    background-color: #C2E1F6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
+}
+
+.profile-header {
+    height: 17%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-header .personal-account-title {
+    font-weight: 600;
+    font-size: 3vw;
+    position: relative;
+}
+
+.profile-header .logo-wrapper {
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+
+.profile-header .bit66-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header .user-data-wrapper {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile-header .profile-image {
+    background-color: #F86666;
+    position: relative;
+    margin-right: 30px;
+}
+
+.profile-background .content-container {
+    height: 75%;
+    background-color: #FFFFFF;
+    border-radius: 77px;
+    position: relative;
+}
+
+#profile-content-navbar {
+    width: 27%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5.5%;
+}
+
+#profile-content-navbar a {
+    text-decoration: none;
+}
+
+#profile-content-navbar a:first-child {
+    margin-top: 20%;
+}
+
+#profile-content-navbar a h1 {
+    text-align: center;
+}
+
+#profile-content-navbar .buttons {
+    width: 85%;
+    height: 10%;
+    border-radius: 30px;
+}
+
+.main-content-container-wrapper {
+    position: absolute;
+    left: 27%;
+    height: 100%;
+    width: 70%;
+}
+
+.main-content-container {
+    top: 7%;
+    position: absolute;
+    height: 87%;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #E2EFF7;
+}
+

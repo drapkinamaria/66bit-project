@@ -1,0 +1,218 @@
+.background {
+    background-color: #C2E1F6;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.blue_rectangle {
+    position: fixed;
+    background-color: #E2EFF6;
+    width: 95%;
+    height: 75%;
+    border-radius: 77px;
+    margin-left: 2.6%;
+    margin-top: 6%;
+}
+
+.menu {
+    width: 17%;
+    height: 20%;
+    background-color: #FFFFFF;
+    border-radius: 51px;
+    position: relative;
+}
+
+.create_personal_acc {
+    font-family: 'Poppins', system-ui;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5vw;
+    line-height: 15%;
+    color: #000000;
+}
+
+.main_information {
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.additionally {
+    margin-left: 35%;
+    margin-top: -3.5%;
+}
+
+.work_projects {
+    margin-left: 1130px;
+    margin-top: -91px;
+}
+
+.back_next_save {
+    font-family: 'Poppins', system-ui;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 33px;
+    color: #000000;
+    position: fixed;
+}
+
+.save {
+    margin-left: 900px;
+    margin-top: 420px;
+}
+
+.next {
+    margin-left: 1380px;
+    margin-top: 420px;
+}
+
+.text-style {
+    font-family: 'Poppins', system-ui;
+    font-style: normal;
+    color: #000000;
+    line-height: 2vw;
+}
+
+.numbers {
+    font-weight: 600;
+    font-size: 61px;
+    padding-top: 25px;
+    margin-left: 20px;
+    display: block;
+}
+
+.text_near_numbers {
+    font-weight: 500;
+    font-size: 1.7vw;
+    display: block;
+    position: fixed;
+}
+
+.first {
+    margin-top: -43px;
+    margin-left: 54px;
+}
+.second {
+    margin-top: -15px;
+    margin-left: 54px;
+}
+
+.first_first {
+    margin-top: -43px;
+    margin-left: 64px;
+}
+.second_first {
+    margin-top: -15px;
+    margin-left: 64px;
+}
+
+.middle {
+    margin-top: -33px;
+    margin-left: 64px;
+}
+
+.blocks_information {
+    width: 15%;
+    height: 7%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-family: 'Poppins', system-ui;
+    color: #ACA4A4;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.7vw;
+    line-height: 2vw;
+    position: fixed;
+}
+
+.personal_data {
+    position: fixed;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.name {
+    margin-left: 20%;
+    margin-top: 80%;
+}
+
+.second_name {
+    margin-left: 130px;
+    margin-top: 125px;
+}
+
+.bithrday {
+    margin-left: 130px;
+    margin-top: 220px;
+}
+
+.email {
+    margin-left: 130px;
+    margin-top: 315px;
+}
+
+.surname {
+    margin-left: 60%;
+    margin-top: 60%;
+}
+.gender {
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.post {
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.phone_number {
+    margin-left: 500px;
+    margin-top: 220px;
+}
+
+.telegram {
+    margin-left: 500px;
+    margin-top: 315px;
+}
+
+
+.block_space {
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 26%;
+}
+
+.bottom_menu {
+    position: fixed;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    position: fixed;
+}
+
+.arrow_next {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 1585px;
+    margin-top: 430px;
+}
+
+.line {
+    width: 60px;
+    height: 5px;
+    background-color: black;
+    position: fixed;
+}
+.line_next {
+    margin-left: 1550px;
+    margin-top: 440px;
+}

@@ -1,0 +1,261 @@
+.personal_account {
+    font-weight: 600;
+    font-size: 3vw;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.first_circle {
+    background-color: #F86666;
+    margin-left: 68%;
+}
+
+.text_top {
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+
+.exit {
+    margin-top: -2%;
+    margin-left: 87%;
+}
+
+.ordinary-button {
+    background-color: #E2EFF7;
+}
+
+.ordinary-button:hover, .pressed-button {
+    background-color: #C2E1F6;
+}
+
+.button_my_messages {
+    margin-top: 14%;
+}
+
+.text_my_messages {
+    margin-left: 50%;
+
+}
+
+.button-text {
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+
+.inside_blue_rectangle {
+    position: fixed;
+    border-radius: 30px;
+    width: 68%;
+    height: 70%;
+    margin-top: 2.2%;
+    margin-left: 20%;
+    background-color: #E2EFF7;
+}
+
+.small_white_rectangle {
+    position: fixed;
+    width: 65%;
+    height: 8%;
+    margin-left: 1.5%;
+    background-color: #FFFFFF;
+}
+
+.search_white {
+    margin-top: 7%;
+}
+
+.white_messages
+{
+    margin-top: 2%;
+}
+
+.big_white_rectangle {
+    position: fixed;
+    width: 65%;
+    height: 52%;
+    margin-left: 1.5%;
+    margin-top: 8%;
+    background-color: #FFFFFF;
+}
+
+.message {
+    position: fixed;
+    width: 63%;
+    height: 7%;
+    background-color: #EDECEC;
+}
+
+.message1 {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.message2 {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.mails {
+    position: fixed;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.mail1_1 {
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+.mail1_2 {
+    padding-top: 1%;
+    margin-left: 20%;
+}
+
+.new_message {
+    position: fixed;
+    font-weight: 500;
+    font-size: 29px;
+    margin-left: 1%;
+    padding-top: 1%;
+}
+
+.envelope {
+    position: fixed;
+    width: 2.5%;
+    height: 3.5%;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+.incoming {
+    margin-left: 20%;
+    margin-top: 0.5%;
+}
+
+.outgoing {
+    margin-left: 28%;
+    margin-top: 0.5%;
+}
+
+.text_outgoing_incoming_deleted {
+    position: fixed;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.outgoing_text {
+    margin-left: 19.5%;
+    margin-top: 2%;
+}
+
+.incoming_text {
+    margin-left: 27.2%;
+    margin-top: 2%;
+}
+
+.cross{
+    border: solid red;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    position: fixed;
+}
+
+.cross_top {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 35.5%;
+}
+
+.cross_bottom {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    margin-left: 35.5%;
+    margin-top: 1.5%;
+}
+
+.cross_text {
+    margin-left: 34%;
+    margin-top: 2%;
+}
+
+.line_messages {
+    width: 2%;
+    height: 0.3%;
+    background-color: red;
+    position: fixed;
+    margin-top: 1.4%;
+}
+
+.incoming_line {
+    margin-left: 22.1%;
+}
+
+.outgoing_line {
+    margin-left: 29.9%;
+}
+
+.line_envelope{
+    width: 1.6%;
+    height: 0.3%;
+    background-color: black;
+    position: fixed;
+}
+
+.arrow_envelope{
+    border: solid red;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    position: fixed;
+}
+
+.arrow_incoming {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 22.1%;
+    margin-top: 1.1%;
+}
+
+.arrow_outgoing {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 24.1%;
+    margin-top: 1.1%;
+}
+
+.right_line_envelope {
+    transform: rotate(215deg);
+    -webkit-transform: rotate(215deg);
+    margin-top: 1.05%;
+}
+
+.left_line_envelope {
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    margin-top: 1.03%;
+}
+
+.right_incoming_envelope {
+    margin-left: 19.95%;
+}
+
+.left_incoming_envelope {
+    margin-left: 21.2%;
+}
+
+.right_outgoing_envelope {
+    margin-left: 28.05%;
+}
+
+.left_outgoing_envelope {
+    margin-left: 29.28%;
+}
