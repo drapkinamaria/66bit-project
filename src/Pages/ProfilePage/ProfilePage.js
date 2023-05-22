@@ -7,6 +7,7 @@ import Tasks from "./Tasks/my_tasks";
 import Projects from "./Projects/my_projects";
 import Management from "./Management/my_management";
 import Data from "./Data/my_data";
+import '../../StyleSheets/profile.css'
 
 const ProfilePage = (props) => {
     // let navigate = useNavigate();
@@ -14,17 +15,14 @@ const ProfilePage = (props) => {
     return (
         <div className="profile-background">
             <Header/>
-            <div className="content-container">
-                <Navbar/>
-                <Routes>
-                    <Route path='data' element={<Data/>}/>
-                    <Route path='notifications' element={<Notifications/>}/>
-                    <Route path='tasks' element={<Tasks/>}/>
-                    <Route path='projects' element={<Projects/>}/>
-                    <Route path='management' element={<Management/>}/>
-                </Routes>
-
-            </div>
+            <Navbar/>
+            <Routes>
+                <Route path='data' element={<Data/>}/>
+                <Route path='notifications' element={<Notifications/>}/>
+                <Route path='tasks' element={<Tasks/>}/>
+                <Route path='projects' element={<Projects/>}/>
+                <Route path='management' element={<Management/>}/>
+            </Routes>
         </div>
     )
 }

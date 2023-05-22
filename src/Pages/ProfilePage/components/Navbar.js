@@ -1,33 +1,24 @@
 import React from 'react'
+import '../../../StyleSheets/profile.css'
 
 
 const Navbar = (props) => {
     return (
-        <div className='navigation-bar' id='profile-content-navbar'>
-            <a href='/profile/data' className='buttons ordinary-button button-my-data'>
-                <h1 className='text-style button-text text-my-data'>
-                    Обо мне
-                </h1>
+        <div className="profile-content-navbar" id='profile-content-navbar'>
+            <a href='/profile/data' className='header-text-left'>
+                Обо мне
             </a>
-            <a href='/profile/notifications' className='buttons ordinary-button button-my-notifications'>
-                <h1 className='text-style button-text text-my-notifications'>
-                    Обратная связь
-                </h1>
+            <a href='/profile/notifications' className='header-text-left'>
+                Обратная связь
             </a>
-            <a href='/profile/tasks' className='buttons ordinary-button button-my-tasks'>
-                <h1 className='text-style button-text text-my-tasks'>
-                    Задачи
-                </h1>
+            <a href='/profile/tasks' className='header-text-left'>
+                Задачи
             </a>
-            <a href='/profile/projects' className='buttons ordinary-button button-my-projects'>
-                <h1 className='text-style button-text text-my-projects'>
-                    Проекты
-                </h1>
+            <a href='/profile/projects' className='header-text-left'>
+                Проекты
             </a>
-            <a href='/profile/management' className='buttons ordinary-button button-my-management'>
-                <h1 className='text-style button-text text-my-management'>
-                    Коллеги
-                </h1>
+            <a href='/profile/management' className='header-text-left'>
+                Коллеги
             </a>
         </div>
     )

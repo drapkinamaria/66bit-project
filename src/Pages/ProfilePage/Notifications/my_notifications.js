@@ -1,9 +1,9 @@
 import '../../../StyleSheets/create_acc2.css'
 import '../../../StyleSheets/create_acc1.css';
-import '../../../StyleSheets/my_data.css'
+import '../../../StyleSheets/data.css'
 import mail_pic from "../../../images/mail.png";
 import strange from "../../../images/smth_str.png";
-import "../../../StyleSheets/my_notifications.css"
+import "../../../StyleSheets/notifications.css"
 
 
 const Notifications = (props) => {

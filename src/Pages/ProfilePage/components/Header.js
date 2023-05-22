@@ -1,15 +1,15 @@
 import React from 'react'
-import logo from "../../../images/66bit.png";
+import { ReactComponent as Logo } from '../../../images/66bit.svg';
+
 const Header = (props) => {
     return (
         <div className='profile-header'>
-            <h1 className='text-style personal-account-title'>Личный кабинет</h1>
-            <div className='logo-wrapper'>
-                <img className='bit66-logo' src={logo} alt='66bit logo'/>
-            </div>
-            <div className='user-data-wrapper'>
-                <div className='circle profile-image'></div>
-                <div className="text_top name_surname">Мария Драпкина</div>
+            <h1 className="personal-account">Личный кабинет</h1>
+            <Logo/>
+            <div className="profile-header-wrapper">
+                <div className="circle"></div>
+                <div className="header-text-left">Мария Драпкина</div>
+                <div className="header-text-left">Выйти</div>
             </div>
         </div>
     )

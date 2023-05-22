@@ -1,0 +1,21 @@
+.white-container > div:first-child {
+    align-self: flex-start;
+}
+
+.choose_time {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.add_task {
+    width: 30px;
+    height: 30px;
+    background-color: #93C3E2;
+}

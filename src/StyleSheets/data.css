@@ -1,15 +1,3 @@
-.personal_account {
-    font-weight: 600;
-    font-size: 3vw;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-.circle {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-}
 
 .first_circle {
     background-color: #F86666;
