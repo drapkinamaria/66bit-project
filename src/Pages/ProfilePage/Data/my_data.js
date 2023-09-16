@@ -26,8 +26,8 @@ const Data = (props) => {
 
 
     return (
-        <div className='main-content-container-wrapper'>
-            <div className="data_white_container">
+        <main className='main-part'>
+            <div className='data_white_container'>
                 <div className="profile-photo-wrapper">
                     <img className='profile-photo' alt='Profile photo'/>
                 </div>
@@ -86,7 +86,7 @@ const Data = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 

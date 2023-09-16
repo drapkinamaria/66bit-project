@@ -13,7 +13,7 @@ const ProfilePage = (props) => {
     // let navigate = useNavigate();
     // navigate('/profile/data');
     return (
-        <div className="profile-background">
+        <div>
             <Header/>
             <Navbar/>
             <Routes>

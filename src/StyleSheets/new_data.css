@@ -1,20 +1,8 @@
-.data_white_container {
-    display: flex;
-    width: calc(100% - 40px);
-    height: auto;
-    background-color:white;
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 15px;
-    overflow-y: auto;
-    justify-content: flex-start;
-}
-
 .profile-photo-wrapper {
     display: flex;
-    width: 180px;
-    height: 130px;
+    width: 150px;
+    padding-left: 20px;
+    height: 180px;
 }
 
 .profile-photo {
@@ -32,6 +20,7 @@
     row-gap: 16px;
     flex-wrap: wrap;
     padding-left: 20px;
+    padding-top: 10px;
 }
 
 .data-content {

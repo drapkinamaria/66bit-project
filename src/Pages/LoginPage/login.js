@@ -1,6 +1,6 @@
 import '../../StyleSheets/App.css';
 import backgroundImage from '../../images/background.png'
-import logo from '../../images/66bit.png'
+import logo from '../../images/66bit.svg'
 import git from '../../images/git.png'
 
 function Login() {

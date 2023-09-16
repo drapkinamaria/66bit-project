@@ -1,68 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: 'Monteserrat', sans-serif;
-}
-
-.profile-background {
-    display: flex;
+    font-family: 'Poppins', sans-serif;
     background-color: #C2E1F6;
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .profile-header {
     height: 80px;
-    width: 100vw;
-    position: fixed;
-    left: 0;
     top: 0;
-    background-color: #C2E1F6;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-header-wrapper {
-    padding-right: 20px;
-    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
     align-items: center;
-    gap: 20px;
+    justify-content: flex-end;
+    gap: 30px;
+    display: flex;
 }
 
 .profile-content-navbar {
-    width: 210px;
-    height: 100%;
-    background-color: #C2E1F6;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
     position: fixed;
-    left: 0;
     top: 80px;
+    left: 0;
+    width: 210px;
+    height: calc(100% - 80px);
+    display: flex;
     gap: 15px;
-    padding-left: 20px;
+    flex-direction: column;
+    padding-left: 30px;
     padding-top: 10px;
 }
 
-.main-content-container-wrapper {
-    padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    width: 100%;
-    height: 100%;
-    margin-top: 80px;
+.main-part {
+    position: fixed;
     margin-left: 210px;
-    overflow-y: auto;
+    width: calc(100% - 210px);
+    height: calc(100% - 80px);
+    min-width: 10rem;
+    padding-right: 30px;
+    background-color: #C2E1F6;
+    overflow: auto;
+}
+
+.data_white_container {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: calc(100% - 110px);
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .circle {
     display: flex;
     background-color: #F86666;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 
@@ -70,13 +77,15 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
-    line-height: 1.4;
+    line-height: 1.5;
     color: #000000;
     text-decoration: none;
 }
 
-.personal-account {
-    padding-left: 20px;
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Center-align the text in the footer */
 }
-
 
