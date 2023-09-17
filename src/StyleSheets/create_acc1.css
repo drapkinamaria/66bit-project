@@ -24,7 +24,6 @@
 }
 
 .create_personal_acc {
-    font-family: 'Poppins', system-ui;
     font-style: normal;
     font-weight: 600;
     font-size: 3.5vw;
@@ -48,7 +47,6 @@
 }
 
 .back_next_save {
-    font-family: 'Poppins', system-ui;
     font-style: normal;
     font-weight: 500;
     font-size: 34px;
@@ -68,7 +66,6 @@
 }
 
 .text-style {
-    font-family: 'Poppins', system-ui;
     font-style: normal;
     color: #000000;
     line-height: 2vw;

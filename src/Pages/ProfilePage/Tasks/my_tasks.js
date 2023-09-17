@@ -48,8 +48,9 @@ const Tasks = (props) => {
                     className="choose_time"
                     onClick={() => displayTasks("на день")}
                     style={{
-                        backgroundColor: activeTag === "на день" ? "#F86666" : "",
-                        borderColor: activeTag === "на день" ? "#F86666" : ""
+                        backgroundColor: activeTag === "на день" ? "#1A86FB" : "",
+                        borderColor: activeTag === "на день" ? "#1A86FB" : "",
+                        color: activeTag === "на день" ? "white" : ""
                     }}
                 >
                     На день
@@ -58,8 +59,9 @@ const Tasks = (props) => {
                     className="choose_time"
                     onClick={() => displayTasks("на месяц")}
                     style={{
-                        backgroundColor: activeTag === "на месяц" ? "#F86666" : "",
-                        borderColor: activeTag === "на месяц" ? "#F86666" : ""
+                        backgroundColor: activeTag === "на месяц" ? "#1A86FB" : "",
+                        borderColor: activeTag === "на месяц" ? "#1A86FB" : "",
+                        color: activeTag === "на месяц" ? "white" : ""
                     }}
                 >
                     На месяц
@@ -68,28 +70,35 @@ const Tasks = (props) => {
                     className="choose_time"
                     onClick={() => displayTasks("на квартал")}
                     style={{
-                        backgroundColor: activeTag === "на квартал" ? "#F86666" : "",
-                        borderColor: activeTag === "на квартал" ? "#F86666" : ""
+                        backgroundColor: activeTag === "на квартал" ? "#1A86FB" : "",
+                        borderColor: activeTag === "на квартал" ? "#1A86FB" : "",
+                        color: activeTag === "на квартал" ? "white" : "",
                     }}
                 >
                     На квартал
                 </button>
             </div>
             <div className="data_white_container">
-                <div className="add_task_container">
-                    <button className="add_task" onClick={addTaskWithTag}>+</button>
-                    <div>Добавить задачу</div>
-                </div>
-                {filteredTasks.map((task) => (
-                    <div key={task.id} className="task_item">
-                        <div>
-                            {task.description}
-                            {task.priority}
-                            {task.complexity}
+                {filteredTasks.length === 0 ? (
+                    <h2>Нет задач</h2>
+                ) : (
+                    filteredTasks.map((task) => (
+                        <div key={task.id} className="task_item">
+                            <div className="task_card">
+                                <div>Описание: {task.description}</div>
+                                <div>Приоритет: {task.priority}</div>
+                                <div>Сложность: {task.complexity}</div>
+                            </div>
+                            <div className="actions_container">
+                                <button className="remove_task" onClick={() => removeTask(task.id)}>Удалить</button>
+                                <button className="add_task" onClick={() => editTask(task.id)}>Редактировать</button>
+                            </div>
                         </div>
-                        <button className="remove_task" onClick={() => removeTask(task.id)}>Удалить</button>
-                    </div>
-                ))}
+                    ))
+                )}
+                <div className="add_task_container">
+                    <button className="add_task" onClick={addTaskWithTag}>Добавить задачу</button>
+                </div>
             </div>
         </main>
     );
