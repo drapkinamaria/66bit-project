@@ -1,8 +1,6 @@
-import '../../../StyleSheets/create_acc2.css'
-import '../../../StyleSheets/create_acc1.css';
-import '../../../StyleSheets/data.css'
 import '../../../StyleSheets/management.css'
 import '../../../StyleSheets/profile.css'
+import '../../../StyleSheets/tasks.css'
 import {useState} from "react";
 
 const Management = (props) => {
@@ -61,7 +59,6 @@ const Management = (props) => {
             </div>
             <div className="data_white_container">
                 {Object.keys(groupedNames).map((letter) => {
-                    // Проверяем, есть ли соответствующие фамилии для текущей буквы
                     const hasMatchingNames = filteredNames.some(
                         (name) =>
                             name.lastName.charAt(0).toUpperCase() === letter &&
@@ -71,7 +68,7 @@ const Management = (props) => {
                     return hasMatchingNames ? (
                         <div key={letter}>
                             <h2>{letter}</h2>
-                            <ul>
+                            <div>
                                 {filteredNames
                                     .filter(
                                         (name) =>
@@ -79,15 +76,16 @@ const Management = (props) => {
                                             name.lastName.toLowerCase().includes(searchQuery.toLowerCase())
                                     )
                                     .map((name) => (
-                                        <li key={name.id}>
-                                            {name.lastName} {name.firstName} {name.patronymic} - {name.position}
-                                        </li>
+                                        <div key={name.id}>
+                                            <div>{name.lastName} {name.firstName} {name.patronymic}</div>
+                                            <div>{name.position}</div>
+                                        </div>
                                     ))}
-                            </ul>
+                            </div>
                         </div>
                     ) : null;
                 })}
-                <button onClick={handleShowFullList} disabled={showFullList}>
+                <button className="show_full_list" onClick={handleShowFullList} disabled={showFullList}>
                     Показать весь список
                 </button>
             </div>

@@ -16,14 +16,13 @@ const Tasks = (props) => {
     const [newTaskComplexity, setNewTaskComplexity] = useState("Сложность 1");
 
     useEffect(() => {
-        // При инициализации компонента, показываем задачи на день
         displayTasks("на день");
     }, []);
 
     const displayTasks = (tag) => {
         const filtered = tasks.filter(task => task.tag === tag);
         setFilteredTasks(filtered);
-        setActiveTag(tag); // Устанавливаем активный тег
+        setActiveTag(tag);
     };
 
     const addTaskWithTag = () => {

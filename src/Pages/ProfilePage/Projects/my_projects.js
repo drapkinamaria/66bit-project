@@ -1,11 +1,20 @@
-import '../../../StyleSheets/create_acc2.css'
-import '../../../StyleSheets/create_acc1.css';
-import '../../../StyleSheets/data.css'
-import logo from '../../../images/66bit.svg'
+import '../../../StyleSheets/projects.css'
+import '../../../StyleSheets/tasks.css'
+import React from "react";
 
 const Projects = (props) => {
     return (
-        <h1>PROJECTS</h1>
+        <main className='main-part'>
+            <div className="task_selector_container">
+                <div className="tasks_text">Проекты</div>
+                <button className="choose_time">Текущие</button>
+                <button className="choose_time">Планируемые</button>
+                <button className="choose_time">Прошедшие</button>
+            </div>
+            <div className="data_white_container">
+
+            </div>
+        </main>
     );
 }
 
