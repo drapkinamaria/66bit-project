@@ -7,10 +7,10 @@ import Header from "./components/Header";
 
 const RegistrationPage = (props) => {
     return (
-        <div className="background">
+        <div>
             <Header/>
-            <Navbar/>
             <div className="blue_rectangle">
+                <Navbar/>
                 <Routes>
                     <Route path='1' element={<Reg1/>}/>
                     <Route path='2' element={<Reg2/>}/>

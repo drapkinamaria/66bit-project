@@ -37,25 +37,25 @@ class PersonalDataForm extends React.Component {
     render() {
         return (
             <form>
-                <input className='blocks_information name' type='text' name='firstName' value={this.state.firstName}
+                <input className='' type='text' name='firstName' value={this.state.firstName}
                        onChange={this.handleChange}/>
-                <input className='blocks_information surname' type='text' name='lastName' value={this.state.lastName}
+                <input className='' type='text' name='lastName' value={this.state.lastName}
                        onChange={this.handleChange}/>
-                <input className='blocks_information second_name' type='text' name='patronymic'
+                <input className='' type='text' name='patronymic'
                        value={this.state.patronymic} onChange={this.handleChange}/>
-                <input className='blocks_information phone_number' type='text' name='phone' value={this.state.phone}
+                <input className='' type='text' name='phone' value={this.state.phone}
                        onChange={this.handleChange}/>
-                <input className='blocks_information email' type='text' name='email' value={this.state.email}
+                <input className='' type='text' name='email' value={this.state.email}
                        onChange={this.handleChange}/>
                 <input type='text' name='post' value={this.state.post} onChange={this.handleChange}/>
-                <select className='blocks_information gender' name='isMale' value={this.state.isMale}
+                <select className='' name='isMale' value={this.state.isMale}
                         onChange={this.handleChange}>
                     <option value={true}>Мужчина</option>
                     <option value={false}>Женщина</option>
                 </select>
-                <input className='blocks_information bithrday' name='birthDay' type='date' value={this.state.birthDay}
+                <input className='' name='birthDay' type='date' value={this.state.birthDay}
                        onChange={this.handleChange}/>
-                <input className='back_next_save save' type='submit' value='Submit'/>
+                <input className='' type='submit' value='Submit'/>
             </form>
         )
     }

@@ -1,21 +1,24 @@
 import React from "react";
 
 const Navbar = () => {
-    return (
 
-        <div>
-            <div>
+    const countPages = [1, 2]
+
+    return (
+        <div className="menu">
+            <div className="menu_element">
                 <a href='/registration/1'>
-                    <div className="">
-                        <text className=''>1</text>
-                        <text className='text-style '>основная</text>
-                        <text className='text-style '>информация</text>
+                    <div>
+                        <div>{countPages[0]}.</div>
+                        <div>основная информация</div>
                     </div>
                 </a>
+            </div>
+            <div className="menu_element">
                 <a href='/registration/2'>
                     <div className="">
-                        <text className='text-style '>2</text>
-                        <text className='text-style '>дополнительно</text>
+                        <div className=''>{countPages[1]}.</div>
+                        <div className=''>дополнительно</div>
                     </div>
                 </a>
             </div>

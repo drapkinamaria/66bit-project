@@ -5,38 +5,38 @@ function Reg2() {
     return (
 
         <div>
-            <div className='headers'>
+            <div className=''>
                 <div>
-                    <text className='text text_style2 about_me'>О себе</text>
+                    <div className=''>О себе</div>
                 </div>
                 <div>
-                    <text className='text text_style2 portfolio'>Портфолио</text>
+                    <div className=''>Портфолио</div>
                 </div>
             </div>
-            <div className='new_rectangles'>
+            <div className=''>
                 <div>
                     <div className='about_me_rectangle'></div>
-                    <text className='text dotes'>...</text>
+                    <div className='text dotes'>...</div>
                     <button className='access_rectangle'></button>
-                    <text className='text access'>кому доступно</text>
-                    <text className='text access_people access_people_first'>только мне</text>
-                    <text className='text access_people access_people_second'>только руководству</text>
-                    <text className='text access_people access_people_third'>всем сотрудникам</text>
-                    <div className='access_line first_line'></div>
-                    <div className='access_line second_line'></div>
-                    <div className='portfolio_rectangle'></div>
-                    <div className='rectangles big_rectangle'></div>
-                    <div className='rectangles small_rectangle'></div>
+                    <div className='text access'>кому доступно</div>
+                    <div className=''>только мне</div>
+                    <div className=''>только руководству</div>
+                    <div className=''>всем сотрудникам</div>
+                    <div className=''></div>
+                    <div className=''></div>
+                    <div className=''></div>
+                    <div className=''></div>
+                    <div className=''></div>
 
                 </div>
             </div>
             <div className='bottom_menu'>
                 <div>
-                    <text className='back_next_save save'>сохранить</text>
+                    <div className=''>сохранить</div>
                 </div>
                 <a href='1'>
                     <div>
-                        <text className='back_next_save back'>назад</text>
+                        <tduv className=''>назад</tduv>
                     </div>
                     <div className='arrow arrow_back'></div>
                     <div className='line line_back'></div>

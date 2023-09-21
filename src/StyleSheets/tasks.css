@@ -31,6 +31,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: calc(100% - 110px);
+    min-width: 275px;
     column-gap: 20px;
     height: auto;
     margin-top: 1rem;

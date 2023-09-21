@@ -4,15 +4,13 @@ import PersonalDataForm from "./form";
 function Reg1() {
     return (
         <div>
-            <div>
-                <text className='text-style personal_data'>Персональные данные</text>
+            <div className="personal_data_container">
+                <div>Персональные данные</div>
             </div>
             <PersonalDataForm />
             <div className=''>
                 <a href='2'>
-                    <div>
-                        <text className=''>далее</text>
-                    </div>
+                    <div className=''>далее</div>
                     <div className='arrow arrow_next'>
                     </div>
                     <div className='line line_next'></div>
